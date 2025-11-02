@@ -3,7 +3,7 @@ export const fetchCategory = createAsyncThunk(
   "/category/fetchCategory",
   async () => {
     const data = await fetch(
-      "https://raw.githubusercontent.com/seyedmehdii/myData/main/db.json"
+      "https://raw.githubusercontent.com/Mehdi-ni/dastresi/main/db.json"
     );
     const res = await data.json();
     return res.category;
