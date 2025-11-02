@@ -17,5 +17,21 @@
       "type": "image/png"
     }
   ],
-  "description": "وب‌سایت رسمی دسترسی"
+  "description": "وب‌سایت رسمی دسترسی",
+  "screenshots": [
+    {
+      "src": "./screenshots/1.png",
+      "sizes": "320x320",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "lable": "صفحه اصلی وبسایت"
+    },
+    {
+      "src": "./screenshots/2.png",
+      "sizes": "7000x7000",
+      "type": "image/png",
+      "form_factor": "wide",
+      "lable": "صفحه محصولات وبسایت"
+    }
+  ]
 }
