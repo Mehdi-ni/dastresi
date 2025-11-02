@@ -13,5 +13,5 @@ export default defineConfig({
       manifest: false, // از فایل manifest.json جداگانه استفاده می‌کنیم
     }),
   ],
-  base: "/", 
+  base: "/dastresi/", 
 });
