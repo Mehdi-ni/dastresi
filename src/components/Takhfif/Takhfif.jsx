@@ -178,18 +178,3 @@ const Takhfif = () => {
 };
 
 export default Takhfif;
-/** <div className="h-full w-1/5 bg-red-500 "></div>
-              <div className="flex flex-col flex-1 justify-between gap-2 p-2 bg-green-700 ">
-                <h3 className="text-sm leading-7  ">
-                  ماساژور ULTRA-MINI پاورولوژی مدل Powerology SM011
-                </h3>
-                <div className="flex flex-col gap-2 bg-amber-400 w-full h-[50px] ">
-                  <div className="flex justify-between flex-row gap-2">
-                    <h1>gjgjgjg</h1>
-                    <h1>gjgjgjg</h1>
-                  </div>
-                  <div className="flex flex-row items-center justify-end gap-1">
-                    <h1>gjgjgjg</h1>
-                  </div>
-                </div>
-              </div> */

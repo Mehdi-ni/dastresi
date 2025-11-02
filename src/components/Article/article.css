@@ -1,6 +1,6 @@
 .articlesSwiper {
   position: relative;
-  padding-bottom: 60px; /* فضای pagination */
+  padding-bottom: 60px;
 }
 
 .articlesSwiper .swiper-pagination {

@@ -23,11 +23,11 @@ const Article = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // 🔹 تشخیص سایز فعلی
+  //  تشخیص سایز فعلی
   const isSmDown = windowWidth < 640; // sm و پایین‌تر
   const isMdUp = windowWidth >= 768; // md و بالاتر
 
-  // 🔹 تنظیم نمایش و گروه‌بندی
+  //  تنظیم نمایش و گروه‌بندی
   const slidesPerView = isSmDown ? 1 : isMdUp ? 4 : 2;
   const slidesPerGroup = isSmDown ? 1 : isMdUp ? 4 : 2;
 
@@ -74,7 +74,7 @@ const Article = () => {
         ))}
       </Swiper>
 
-      {/* 🔹 Pagination سفارشی */}
+      {/*  Pagination سفارشی */}
       <div className="flex justify-center mt-4 gap-2">
         {Array.from({ length: totalButtons }).map((_, idx) => (
           <button

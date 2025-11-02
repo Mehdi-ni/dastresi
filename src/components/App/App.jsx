@@ -17,10 +17,10 @@ const App = () => {
 
   useEffect(() => {
     const desktopHeader = document.getElementById("site-header");
-    const mobileHeader = document.getElementById("mobile-header"); // باید id بدی به div موبایل
+    const mobileHeader = document.getElementById("mobile-header");
 
     const updatePadding = () => {
-      const isDesktop = window.matchMedia("(min-width: 1024px)").matches; // lg breakpoint
+      const isDesktop = window.matchMedia("(min-width: 1024px)").matches;
       if (isDesktop && desktopHeader) {
         setHeaderHeight(desktopHeader.offsetHeight);
       } else if (!isDesktop && mobileHeader) {

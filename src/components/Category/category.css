@@ -8,15 +8,15 @@
 
 .myCategorySwiper .swiper-button-next,
 .myCategorySwiper .swiper-button-prev {
-  background: white !important; /* دایره سفید */
-  color: #000 !important; /* رنگ فلش مشکی */
-  border-radius: 50%; /* دایره‌ای شدن */
-  width: 40px; /* اندازه دکمه */
+  background: white !important; 
+  color: #000 !important;
+  border-radius: 50%;
+  width: 40px;
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* سایه ملایم */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 .myCategorySwiper .swiper-button-next svg,
 .myCategorySwiper .swiper-button-prev svg {

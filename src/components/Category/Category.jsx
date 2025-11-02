@@ -19,7 +19,7 @@ const Category = () => {
         دسته‌بندی‌های منتخب
       </h3>
 
-      {/* 🌟 اسلایدر فقط برای md به بالا */}
+      {/*  اسلایدر فقط برای md به بالا */}
       <div className="hidden md:block">
         <Swiper
           spaceBetween={20}
@@ -30,8 +30,8 @@ const Category = () => {
           }}
           modules={[Autoplay, Navigation]}
           breakpoints={{
-            768: { slidesPerView: 5 },   // md
-            1280: { slidesPerView: 6 },  // xl
+            768: { slidesPerView: 5 }, // md
+            1280: { slidesPerView: 6 }, // xl
           }}
           className="myCategorySwiper"
         >
@@ -50,7 +50,7 @@ const Category = () => {
         </Swiper>
       </div>
 
-      {/* 🌟 نمایش ساده برای موبایل (بدون اسلایدر) */}
+      {/*  نمایش ساده برای موبایل (بدون اسلایدر) */}
       <div className="grid grid-cols-2 gap-4 md:hidden">
         {category.map((cat) => (
           <div
