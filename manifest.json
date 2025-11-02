@@ -17,22 +17,5 @@
       "type": "image/png"
     }
   ],
-  "description": "وب‌سایت رسمی دسترسی",
-  "id": "/dastresi/",
-  "screenshots": [
-    {
-      "src": "./screenshots/1.png",
-      "sizes": "320x320",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "label": "صفحه اصلی وب‌سایت"
-    },
-    {
-      "src": "./screenshots/2.png",
-      "sizes": "700x700",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "صفحه محصولات"
-    }
-  ]
+  "description": "وب‌سایت رسمی دسترسی"
 }
